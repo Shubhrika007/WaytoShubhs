@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+									<header id="header">
+									<a href="index.html" class="logo"></a>
+									<ul class="icons">
+										<li><a href="https://www.linkedin.com/in/shubhrika-ahuja-b9178a146/" target="_blank" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+										<li><a href="https://github.com/Shubhrika007" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="https://twitter.com/Duhshubhs" target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="https://medium.com/@a.shubhrika911" target="_blank" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+									</ul>
+								</header>
+								<br>
+								<h2>Hi! Please feel free to write to me and I will try to get back to you as soon as possible!</h2>
+								<!-- Form -->
+													
+
+													<form method="post" action="" name="contactform"  method="POST">
+														<div class="row gtr-uniform">
+															<div  class="col-6 col-12-xsmall">
+																<input type="text" name="name" id="demo-name" value=""  placeholder="Name"   />
+															</div>
+															<div class="col-6 col-12-xsmall">
+																<input type="email" name="email" id="demo-email" value="" placeholder="Email" />
+															</div>
+															
+															<!-- Break -->
+															<div class="col-12">
+																<textarea name="message" id="demo-message" placeholder="Leave your message" rows="6"></textarea>
+															</div>
+															<!-- Break -->
+															<div class="col-12">
+																<ul class="actions">
+																	<li><input type="submit" value="Send Message" class="primary" /></li>
+																	<!--<li><input type="reset" value="Reset" /></li>-->
+																</ul>
+															</div>
+														</div>
+													</form>
+
+							<!-- Content -->
+								<section>
+									
+
+									
+									<!-- Elements -->
+										
+										<div class="row gtr-200">
+											<div class="col-6 col-12-medium">
+
+												
+													
+												<!-- Lists -->
+													
+													<div class="row">
+														<div class="col-6 col-12-small">
+
+															
+															
+
+															
+														</div>
+														<div class="col-6 col-12-small">
+
+													
+
+															
+														</div>
+													</div>
+													
+													
+													<!--<h4>Pagination</h4>
+													<ul class="pagination">
+														<li><span class="button disabled">Prev</span></li>
+														<li><a href="#" class="page active">1</a></li>
+														<li><a href="#" class="page">2</a></li>
+														<li><a href="#" class="page">3</a></li>
+														<li><span>&hellip;</span></li>
+														<li><a href="#" class="page">8</a></li>
+														<li><a href="#" class="page">9</a></li>
+														<li><a href="#" class="page">10</a></li>
+														<li><a href="#" class="button">Next</a></li>
+													</ul>-->
+
+												
+
+													
+
+											</div>
+											<div class="col-6 col-12-medium">
+
+												
+												<!-- Form -->
+													
+
+													
+														<div class="row gtr-uniform">
+															<div class="col-6 col-12-xsmall">
+																
+															</div>
+															<div class="col-6 col-12-xsmall">
+																
+															</div>
+															
+															<!-- Break -->
+															<div class="col-12">
+																
+															</div>
+															<!-- Break -->
+															<div class="col-12">
+																
+															</div>
+														</div>
+													</form>
+											
+											</div>
+										</div>
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Home</a></li>
+										<li><a href="generic.html">CV</a></li>
+										<li><a href="elements.html">Projects</a></li>
+										<!-- <li><a href="#">Blog</a></li> -->
+										<li><a href="Contact me.html">Contact Me</a></li>
+								</nav>
+
+							
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+								
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">a.shubhrika911@gmail.com</a></li>
+										<!-- <li class="icon solid fa-phone">(000) 000-0000</li> -->
+										<li class="icon solid fa-home">Faridabad, Haryana</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy;2023 Made by Shubhrika Ahuja</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+
+			<script>
+			const scriptURL = "https://script.google.com/macros/s/AKfycbwAisLo6ElH9pP5oiTh7uDZimG1ZMhphcxjXAZrVQPr6L0MSGSpqws2yMdEbUgry3rStg/exec"
+			const form = document.forms['contactform']
+		  
+			form.addEventListener('submit', e => {
+			  e.preventDefault()
+			  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+				.then(response => alert("Thank you! your form is submitted successfully." ))
+				.then(() => {  window.location.reload(); })
+				.catch(error => console.error('Error!', error.message))
+			})
+		  </script> 
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
